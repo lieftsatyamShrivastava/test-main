@@ -1,0 +1,15 @@
+/* styles.css */
+/* CarouselWithArrows.css */
+.arrow {
+  font-size: 30px;
+  color: black; /* Change to your desired arrow color */
+  background: transparent;
+}
+
+.arrow.left::before {
+  content: '❮'; /* Unicode character for left arrow */
+}
+
+.arrow.right::before {
+  content: '❯'; /* Unicode character for right arrow */
+}

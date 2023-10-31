@@ -1,0 +1,23 @@
+.vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.custom-height-row {
+  min-height: 300px; /* Adjust the height as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Default style for large screens */
+.custom-div {
+  height: 500px; /* Set the desired height for large screens */
+  background-color: #e5e5e5;
+}
+
+/* Adjust the height for small screens */
+@media (max-width: 767px) {
+  .custom-div {
+    height: auto; /* Adjust the height for small screens, or remove the height property to let it adjust to content */
+  }
+}

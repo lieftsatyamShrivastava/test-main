@@ -1,0 +1,113 @@
+.form-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px;
+  border: none;
+  border-radius: 5px;
+  background: #f5f5f5;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.form-container h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="time"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+button {
+  background:  #084aa6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.error {
+  color: #ff0000;
+  font-size: 0.8em;
+  margin-top: 5px;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.inputrow{
+    margin: 20px 0;
+
+}
+
+.form-group {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.toggle-buttons {
+  display: flex;
+}
+
+.toggle-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-button.active {
+  background-color: #084aa6; /* Custom color for active button */
+  color: #fff;
+}
+
+.toggle-button:not(.active) {
+  background-color: #ddd; /* Custom color for inactive button */
+}
+
+
+
+.days-checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:start;
+}
+
+.days-checkboxes > div {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .days-checkboxes {
+    flex-direction: column;
+  }
+
+  .days-checkboxes > div {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+/* Rest of the CSS remains the same */

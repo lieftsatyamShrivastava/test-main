@@ -1,0 +1,68 @@
+.custom-button {
+  color: rgb(237, 237, 237);
+  /* font-weight: bold; */
+  width: 50%;
+  border-radius: 0;
+  border: none;
+}
+
+.custom-button.active {
+  background-color: #084aa6;
+}
+
+.custom-button.btn-primary {
+  background-color: #084aa6;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: none;
+  border-radius: 0;
+
+}
+
+.custom-button.btn-secondary {
+  background-color: rgb(245, 245, 245);
+  color: black;
+    border-radius: 0;
+
+}
+.input-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.form-control {
+  padding:15px 30px; /* Adjust padding to accommodate the icon */
+}
+
+.toggle-button-container {
+  display: flex;
+}
+
+.toggle-button {
+  flex: 1;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 0px;
+  cursor: pointer;
+  background-color: white;
+  /* color: black; */
+}
+
+.toggle-button.active {
+  /* background-color: red; */
+  color: white;
+}
+
+.btn-noactive{
+  background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+color: #084aa6;
+
+}

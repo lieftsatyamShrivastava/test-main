@@ -1,0 +1,20 @@
+.custom-button{
+    /* border-radius: 10px; */
+    
+}
+
+.custom-toggle-button {
+  width: 70%;
+    transition:  0.3s ease-in-out, color 0.3s ease-in-out;
+
+}
+
+.custom-toggle-button.active {
+  background-color: blue;
+  color: white;
+}
+
+.custom-toggle-button:not(.active) {
+  background-color: white;
+  color: black;
+}

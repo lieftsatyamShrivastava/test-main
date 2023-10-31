@@ -1,0 +1,25 @@
+.mybtn{
+    border-radius: 30px;
+    background-color:blue;
+    border: none;
+    padding: 10px 15px;
+
+}
+.nav{
+    /* height: 10vh; */
+    background-color:rgb(237, 235, 255) ;
+}
+.nav-link{
+    font-size: 15px;
+}
+.headlink :hover{
+    border: 1px solid blue;
+}
+.dropdown-menu{
+    background-color: rgb(62, 99, 62);
+    padding: 0;
+    border: none;
+}
+.navbar-toggler{
+    width: 20%;
+}

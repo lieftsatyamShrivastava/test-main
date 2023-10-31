@@ -1,0 +1,16 @@
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-row > div[class^='col'] {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 767px) {
+  .custom-row > div[class^='col'] {
+    flex: 0 0 100%;
+  }
+}
